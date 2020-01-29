@@ -1,0 +1,30 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: hsl(0, 0%, 98%);
+	color: hsl(234, 12%, 34%)
+}
+
+/*header*/
+
+header {
+	text-align: center;
+	display: grid;
+	margin: 40px 0;
+	grid-template-columns: reapeat(3, 1fr);
+}
+
+p {
+	color: hsl(229, 6%, 66%);
+	font-size: 15px;
+	
+}
+
+.header-kid {
+	margin: 8px 33%;
+	grid-column-start: 2
+}
+
+h2 {
+	font-size: 1.8rem
+}
+
